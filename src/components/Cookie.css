@@ -1,0 +1,46 @@
+h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+span {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: none;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.CookieConsent {
+  font-size: 14px;
+  max-width: 450px;
+  margin: 18px 0;
+  justify-content: center;
+  line-height: 1.4;
+  color: #212529;
+  background-color: #fff;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #212529;
+  display: flex;
+}
+
+.active {
+  display: block !important;
+}
+
+@media (min-width: 34em) {
+  .CookieConsent {
+    margin: 18px 24px;
+  }
+}

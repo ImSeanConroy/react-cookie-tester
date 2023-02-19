@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# React Cookie Tester
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Testing the implementation of Google Analytics and cookie consent in React
 
-## Available Scripts
+<div>
+  <p>
+    <a href="https://github.com/ImSeanConroy/react-cookie-tester/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ImSeanConroy/react-cookie-tester/issues">Request Feature</a>
+  </p>
+</div>
 
-In the project directory, you can run:
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [License](#license)
+- [Support](#support)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project requires Node.js/npm. Install instructions can be found below:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+npm install npm@latest -g
+```
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The easiest way to get a local copy up and running is to clone the repository:
 
-### `npm run build`
+1. Clone the repo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/ImSeanConroy/react-cookie-tester.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Change directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+cd react-cookie-tester
+```
 
-### `npm run eject`
+3. Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+REACT_APP_GA_ID={Your GA measurement id} npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is distributed under the MIT License. See [LICENSE](LICENSE) for more details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you are having problems, please let us know by [raising a new issue](https://github.com/ImSeanConroy/react-cookie-tester/issues/new/choose).
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributors names and contact information:
 
-### Analyzing the Bundle Size
+Sean Conroy - [@ImSeanConroy](https://twitter.com/ImSeanConroy) - [hello@imseanconroy.com](hello@imseanconroy.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Project Link: [https://github.com/ImSeanConroy/react-cookie-tester](https://github.com/ImSeanConroy/react-cookie-tester)
 
-### Making a Progressive Web App
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+These are the resources I found helpful and would like to give credit to.
 
-### Advanced Configuration
+- [React Google Analytics 4](https://www.npmjs.com/package/react-ga4)
+- [react-cookie-consent](https://www.npmjs.com/package/react-cookie-consent)
+- [Create a New React App](https://reactjs.org/docs/create-a-new-react-app.html)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>
